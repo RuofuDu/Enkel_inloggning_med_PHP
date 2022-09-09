@@ -3,15 +3,11 @@
 
 <body>
 
-    <form action="inloggning.php" method="post">
-        Användernamn: <input type="text" name="anvandernamn">
-        Lösenord: <input type="password" name="password">
+    <form action="resultat.php" method="post">
+        Användernamn: <input type="text" name="anvandernamn"><br>
+        Lösenord: <input type="password" name="password"><br>
         <input type="submit">
     </form>
-    <?php
-    $anvandernamn = $_POST["anvandernamn"];
-    $losenord = $_POST["password"];
-    ?>
 
 </body>
 
