@@ -9,7 +9,6 @@
         <input type="submit">
     </form>
     <?php
-    echo "Hello World!";
     $anvandernamn = $_POST["anvandernamn"];
     $losenord = $_POST["password"];
     ?>
